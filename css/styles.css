@@ -1,0 +1,104 @@
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.accented {
+    color: hsl(277, 64%, 61%);
+}
+
+.main-head {
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.main-body {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: smaller;
+    width: 315px;
+    line-height: 1.7;
+}
+
+.stats {
+    display: inline-block;
+    width: 50px;
+    margin: auto 50px auto 0;
+    color: hsla(0, 0%, 100%, 0.6);
+    padding-top: 35px;
+    
+    
+}
+
+
+.stat-title {
+    color: hsl(0, 0%, 100%);
+}
+
+.main-background {
+    background-color: hsl(233, 47%, 7%);
+    width: 1440px;
+    height: 800px;
+    position: relative;
+    
+}
+
+.card-background {
+    background-color: hsl(244, 38%, 16%);
+    width: 540px;
+    height: 446px;
+    position: absolute;
+    margin: 177px 180px;
+    border-radius: 10px 0 0 10px;
+    
+    
+  
+}
+
+.image-div {
+    display: inline-block;
+    width: 540px;
+    height: 446px;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    margin: 177px 180px;
+     
+    
+    
+    
+}
+
+.card-image {
+    border-radius: 0 10px 10px 0;
+}
+
+.message {
+    width: 310px;
+    line-height: 1.5;
+    position: absolute;
+    right: 0;
+    margin-right: 115px;
+    margin-top: 45px;
+}
+
+
+.overlay {
+    height: 446px;
+    width: 540px;
+    background-color: hsl(277, 64%, 61%);
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    opacity: .6;
+    border-radius: 0 10px 10px 0;
+}
+
+
+
+.attribution {
+    text-align: center;
+}
